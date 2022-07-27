@@ -24,3 +24,18 @@
         padding-right: 40px;
     }
 }
+
+.scale-image {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 100%;
+    display: block;
+
+    img {
+        display: block;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        width: 100%; 
+    }
+}

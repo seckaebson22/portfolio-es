@@ -1,0 +1,33 @@
+.item {
+    position: relative;
+    transition: all 0.5s ease-in-out;
+
+    .item-image {
+        border-radius: 10px;
+        transition: all 0.5s ease-in-out;
+
+        &:hover {
+            transition: transform 0.5 ease-in-out;
+            transform: scale(1.1);
+        }
+    }
+
+    .item-content {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        padding: 20px 0;
+        color: #fff;
+
+        .item-subtitle {
+           color: #c6c9d8;
+        }
+
+        .item-title {
+            padding: 10px 20px 20px 20px;
+        }
+    }
+
+}

@@ -1,3 +1,20 @@
 .section {
-    padding: 10px 0;
+    padding: 100px 0;
+
+    .section-content {
+        text-align: center;
+
+        .section-title {
+            text-transform: capitalize;
+        }
+
+        .section-excerpt {
+            font-size: 18px;
+            max-width: 700px;
+            margin: auto;
+            color: $text_color;
+            color: #717173;
+            padding: 10px 0 40px 0;
+        }
+    }
 }
