@@ -679,18 +679,35 @@ for all the forms.
 }
 
 .footer {
-  padding: 20px 0;
+  padding: 40px 0;
+  background-color: #1F1F25;
+  color: #F8F9FC;
 }
 .footer .footer-credits {
   align-items: flex-end;
   display: flex;
+  align-items: center;
   flex-flow: row wrap;
   justify-content: space-between;
 }
 @media screen and (max-width: 1023px) {
   .footer .footer-credits {
-    align-items: flex-start;
+    align-items: center;
     flex-flow: column;
+  }
+}
+.footer .footer-credits .footer-logo img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+.footer .footer-credits .address {
+  font-style: normal;
+  text-align: center;
+}
+@media screen and (min-width: 1024px) {
+  .footer .footer-credits .address {
+    text-align: right;
   }
 }
 
@@ -792,6 +809,36 @@ nav ul,
 }
 .main-nav .open-submenu > .sub-menu {
   display: block;
+}
+
+.footer-menu {
+  display: flex;
+  align-items: center;
+  margin: 0 -5px;
+}
+@media screen and (max-width: 1023px) {
+  .footer-menu {
+    margin: 40px 0;
+  }
+}
+.footer-menu .menu-item {
+  margin: 0 5px;
+}
+.footer-menu .menu-item a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 44px;
+  font-size: 16px;
+  border: 2px solid #F8F9FC;
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+}
+.footer-menu .menu-item a:hover {
+  background: #5F30FF;
+  border: 0;
 }
 
 .grid {

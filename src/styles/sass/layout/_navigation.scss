@@ -107,3 +107,37 @@ nav ul,
         display: block;
     }
 }
+
+.footer-menu {
+    display: flex;
+    align-items: center;
+    margin: 0 -5px;
+
+    @include until($tablet){
+        margin: 40px 0;
+    }
+
+    .menu-item {
+        margin: 0 5px;
+        
+
+        a {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 44px;
+            font-size: 16px;
+            border: 2px solid $brand_color;
+            border-radius: 50%; 
+            transition: all 0.5s ease-in-out;  
+            
+
+            &:hover {
+                background: $brand_color_alt;
+                border: 0;
+            }
+        }
+    }
+}
