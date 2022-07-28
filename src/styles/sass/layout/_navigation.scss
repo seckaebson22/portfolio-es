@@ -17,8 +17,13 @@ nav ul,
         justify-content: space-between;
         margin: 0 -15px;
 
-        @include until($tablet) {
+        @include between($small-tablet,$tablet) {
             margin-right: 40px;
+        }
+
+        @include until($small-tablet){
+            margin: 0 -10px;
+            margin-right: 20px;
         }
 
         .menu-item {
@@ -30,6 +35,12 @@ nav ul,
                 }
             }
 
+            @include until($small-tablet){
+                margin: 0 10px;
+                .button{
+                    display: none;
+                }
+            }
         }
     }
 }
