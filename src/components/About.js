@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState, useEffect } from "react";
 import logo from "./../images/logo.jpg";
 // import classNames from 'classnames';
 
@@ -9,11 +9,11 @@ const tabItems = [
         content: [
             {
                 title: "frontend",
-                excerpt: "React, Redux, PWA, Service Worker, HTML, CSS.",
+                excerpt: "React, Redux , HTML, CSS, SASS, jQuery",
             },
             {
                 title: "backend",
-                excerpt: "Node.JS, Express,Babel, ESLint",
+                excerpt: "Node.JS, PHP",
             },
             {
                 title: "database",
@@ -26,14 +26,14 @@ const tabItems = [
         title: "experience",
         content: [
             {
-                title: "Zoho Technologies 2019 - Present",
+                title: "Xanda LTD (xanda.net) 09/2020 - 04/2022",
                 excerpt:
-                    "Working as a React Developer at Zoho Technologies. Responsible for developing Frontend SPA (Single Page Applications) with performance in mind. Developed some ESLint and Babel Plugins. Did code reviews on performance perspectives.",
+                    "I worked as a full stack developer. My responsibilities where primarily focuse on building custom WordPress themes. so I design the frontend with HTML, CSS and JavaScript and make it dyamic with custom PHP in wordPress",
             },
             {
-                title: "Zoho Technologies 2019 - Present",
+                title: "Ebaaba LTD (ebaaba.com) 02/2020 - 08/2020",
                 excerpt:
-                    "Working as a React Developer at Zoho Technologies. Responsible for developing Frontend SPA (Single Page Applications) with performance in mind. Developed some ESLint and Babel Plugins. Did code reviews on performance perspectives.",
+                    "I did an intern at Ebaaba company ltd, working on their website ebaaba.com fixing buys and adding new features on their website",
             },
         ],
     },
@@ -42,12 +42,12 @@ const tabItems = [
         title: "education & certification",
         content: [
             {
-                title: "B.Tech Information Technology 73%",
-                excerpt: "PSNA CET, Anna University",
+                title: "Bsc. Computer Science (Cum Laude)",
+                excerpt: "I completed a undergraduate degree in Computer Science at the University of the Gambia between January 2016 to December 2019",
             },
             {
-                title: "Higher secondary 87.1%",
-                excerpt: "SBOA Mat Hr Sec School",
+                title: "West African Examination Counsel",
+                excerpt: "Completed a there year Senior Secondary School Certificate at Charles Jaw Senior Secondary School in 2015",
             },
         ],
     },
@@ -55,7 +55,18 @@ const tabItems = [
 
 const About = () => {
 
-    const [active, setActive] = useState(false);
+    const [active, setActive] = useState(0);
+
+    useEffect(() => {
+       setActive(1);
+    }, []);
+
+    const handleClick = (e) => {
+        const index = parseInt(e.target.id, 0);
+        if (index !== active) {
+            setActive(index);
+        }
+    }   
 
     return (
         <div className="section about">
@@ -75,58 +86,38 @@ const About = () => {
                         </div>
                         <div class="tabs">
                             <ul class="tabs-nav">
-                                {tabItems.map(({ title, id}) => {
+                                {tabItems.map(({ title, id }) => {
                                     return (
-                                        <li className={active ? ' ' : 'is-active'} key={id} htmlFor={`active-${title}`} onItemClicked={() => setActive(id)} isActive={id === active}>
+                                        <li className={active === id ? 'is-active' : ''} id={id} onClick={handleClick} active={active === id}>
                                             {title}
                                         </li>
                                     );
                                 })}
                             </ul>
 
-                            <div className={!active ? 'tab-content' : 'is-active'}>
-                                {
-                                    tabItems.map(({ content, id }) => {
-                                        return (
-                                            <div key={id} onClick={active}>
-                                                {
-                                                    content.map(({ title, excerpt }) => {
-                                                        return (
-                                                            <>
-                                                                <h4 className="tab-title">{title}</h4>
-                                                                <div className="tab-excerpt">
-                                                                    <p>{excerpt}</p>
-                                                                </div>
-                                                            </>
-                                                        )
-                                                    })
-                                                }
-                                            </div>
-                                            
-                                        )
-                                    })
+                            {
+                                tabItems.map(({ content, id }) => {
+                                    return (
+                                        <div className={!(active === id) ? 'tab-content' : 'tab-content is-active'} id={id} active={active === id}>
+                                            {
+                                                content.map(({ title, excerpt }) => {
+                                                    return (
+                                                        <div className="tab-container">
+                                                            <h4 className="tab-title">{title}</h4>
+                                                            <div className="tab-excerpt">
+                                                                <p>{excerpt}</p>
+                                                            </div>
+                                                        </div>
+                                                    )
+                                                })
+                                            }
+                                        </div>
 
-                                }
+                                    )
+                                })
 
-                            </div>
+                            }
                         </div>
-                        {/* <div class="tabs">
-                            <ul class="tabs-nav">
-                                <li><a href="#tab-1" class="tabs-link is-active">main skills</a></li>
-                                <li><a href="#tab-2" class="tabs-link">Experiance</a></li>
-                                <li><a href="#tab-3" class="tabs-link">Education &amp; certification</a></li>
-                            </ul>
-
-                            <div id="tab-1" class="tab-content is-active">
-                                <p>Tab 1 content goes here...</p>
-                            </div>
-                            <div id="tab-2" class="tab-content">
-                                <p>Tab 2 content goes here...</p>
-                            </div>
-                            <div id="tab-3" class="tab-content">
-                                <p>Tab 3 content goes here...</p>
-                            </div>
-                        </div> */}
                     </div>
                 </div>
             </div>

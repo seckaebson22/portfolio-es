@@ -7,11 +7,12 @@
         text-transform: capitalize;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        // justify-content: space-around;
+        justify-content: space-between;
 
         li {
-            flex-basis: 0;
-            flex-grow: 1;
+            // flex-basis: 0;
+            // flex-grow: 1;
             position: relative;
             display: inline-block;
             padding-bottom: 4px;
@@ -19,6 +20,7 @@
             font-weight: 500;
             color: $text-color;
             cursor: pointer;
+            transition: all 1s ease-in-out;
 
             @include until($tablet){
                 flex-basis: 50%;
@@ -38,22 +40,38 @@
                 
             }
 
-            // &.is-active {
-            //     background-color: $brand-color-alt;
-            // }
+            &.is-active {
+                color: $brand_color_alt;
 
-            // &:first-child:before {
-            //     display: none;
-            // }
+                &:before {
+                    max-width: 100%;
+                    transition: all 1s ease-in-out;
+                    background-color: $brand_color_alt;
+                }
+            }
+
         }
     }
 
     .tab-content {
         display: none;
         margin: 20px 0;
+        padding: -10px 0;
+        
+        .tab-container {
+            padding: 10px 0
+        }
 
         &.is-active {
             display: block;
+        }
+
+        .tab-title {
+            text-transform: capitalize;
+        }
+
+        .tap-excerpt {
+            color: #7e7e7e;
         }
     }
 }

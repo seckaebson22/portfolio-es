@@ -1,20 +1,24 @@
-import React, { useState } from "react";
+import React, { useCallback, useState } from "react";
 // import { BeakerIcon, } from '@heroicons/react/solid'
 import logo from './../images/logo.jpg';
 
+const menus = [
+    'home',
+    'about',
+    'portfolio'
+]
+
 const Header = () => {
 
-    const [isMenu, setIsMenu] = useState(false);
+    const [click, setClick] = useState(false);
+    const handleClick = () => setClick(!click);
 
-    const handleClick = (e) => {
-        e.preventDefault();
-        setIsMenu(!isMenu);
-    }
+    const [isSticky, setIsSticky] = useState(false);
 
     return (
         <header
             id="site-header"
-            className="header"
+            className={!isSticky ? 'header' : 'header sticky-header'}
             role="banner"
             aria-label="Main Header"
         >
@@ -32,25 +36,25 @@ const Header = () => {
                         </div>
                         <nav
                             id="main-nav"
-                            className="main-nav"
+                            className={click ? 'main-nav is-active' : 'main-nav '}
                             role="navigation"
                             aria-label="Main Navigation"
                         >
                             <ul className="menu">
-                                <li className="menu-item">
-                                    <a href="#home">Home</a>
-                                </li>
-                                <li className="menu-item">
-                                    <a href="#about">About</a>
-                                </li>
-                                <li className="menu-item">
-                                    <a href="#portfolio">Portfolio</a>
-                                </li>
+                                {
+                                    menus.map((menu) => {
+                                        return (
+                                            <li className="menu-item">
+                                                <a href={`#${menu}`}>{menu}</a>
+                                            </li>
+                                        )
+                                    })
+                                }
                             </ul>
                         </nav>
                     </div>
 
-                    <div className="hamburger" onClick={handleClick} title="Menu">
+                    <div className={!click ? 'hamburger' : 'hamburger is-active'} onClick={handleClick} title="Menu">
                         <span className="line-1"></span>
                         <span className="line-2"></span>
                         <span className="line-3"></span>
