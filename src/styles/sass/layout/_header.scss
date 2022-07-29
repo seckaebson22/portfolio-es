@@ -22,11 +22,6 @@
     width: 60px;
     height: 60px;
     border-radius: 50%;
-
-    @include until($tablet){
-        width: 50px;
-        height: 50px;
-    }
   }
 
   &.sticky-header {
@@ -37,14 +32,17 @@
     left: 0;
     right: 0;
     z-index: 99;
-
     height: 50px;
-    display: flex;
-    align-items: center;
+    padding: 5px 0;
+
+    // height: 50px;
+    // display: flex;
+    // align-items: center;
+    // display: none;
 
     img {
-      width: 30px;
-      height: 30px;
+      width: 50px;
+      height: 50px;
     }
   }
 

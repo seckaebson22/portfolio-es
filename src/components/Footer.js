@@ -1,10 +1,13 @@
 
 import React from 'react'
 import logo from './../images/logo.jpg';
+import BackToTop from './BackToTop';
+
 
 const Footer = () => {
     return (
-        <footer id='site-footer' class='footer' role='contentinfo' aria-label='Main Footer'>
+        <>
+            <footer id='site-footer' class='footer' role='contentinfo' aria-label='Main Footer'>
             <div class='centering'>
                 <div class='footer-credits'>
 
@@ -55,6 +58,8 @@ const Footer = () => {
                 </div>
             </div>
         </footer>
+        <BackToTop />
+        </>
     )
 }
 

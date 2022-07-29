@@ -5,7 +5,7 @@
     margin: 20px;
     display: none;
     right: 0;
-    top: 6px;
+    top: 10px;
     z-index: 200;
 
     @include until($tablet) {
@@ -49,5 +49,11 @@
         .line-3 {
             transform: translateY($hamburger-translateY * -1) translateX(0) rotate(45deg * -1);
         }
+    }
+}
+
+.sticky-header {
+    .hamburger {
+        top: 0;
     }
 }

@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from "react";
+import React, { useState } from "react";
 // import { BeakerIcon, } from '@heroicons/react/solid'
 import logo from './../images/logo.jpg';
 
@@ -14,6 +14,20 @@ const Header = () => {
     const handleClick = () => setClick(!click);
 
     const [isSticky, setIsSticky] = useState(false);
+
+    const addSicktyHeader = () => {
+        if(window.scrollY >= 60) {
+            setIsSticky(true);
+            return;
+        }else {
+            setIsSticky(false);
+        } 
+        
+    }
+
+    window.addEventListener('scroll', addSicktyHeader)
+
+
 
     return (
         <header
