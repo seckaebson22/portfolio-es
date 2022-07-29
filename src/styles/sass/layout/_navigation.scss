@@ -4,12 +4,12 @@ nav ul,
     padding: 0;
 }
 
-.right-nav {
+.left-nav {
     display: flex;
-    align-items: center;
+    align-items: center;   
 }
 
-.left-nav {
+.right-nav {
 
     .menu {
         display: flex;
@@ -41,8 +41,29 @@ nav ul,
                     display: none;
                 }
             }
+
+            a {
+                &:hover {
+                    color: inherit;
+                    transition: 0.3s ease-in-out;
+
+                    &.button {
+                        color: white;
+                    }
+                }
+
+            }
+
+            &.is-active {
+                a {
+                    color: $brand-color_alt;
+                    display: none;
+                }
+            }
         }
     }
+
+    
 }
 
 .main-nav {
@@ -102,7 +123,7 @@ nav ul,
                 color: inherit;
 
                 &:hover {
-                    color: #d1d1d1;
+                    color: $brand-color_alt;
                 }
             }
         }

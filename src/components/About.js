@@ -69,7 +69,7 @@ const About = () => {
     }   
 
     return (
-        <div className="section about">
+        <div className="section about" id="about">
             <div className="centering small">
                 <div className="grid alt">
                     <div className="grid-xs-12 grid-s-4 grid-md-4">
