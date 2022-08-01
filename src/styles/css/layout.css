@@ -1719,6 +1719,7 @@ button:hover,
   display: none;
   margin: 20px 0;
   padding: -10px 0;
+  font-size: 16px;
 }
 .tabs .tab-content .tab-container {
   padding: 10px 0;
@@ -1728,9 +1729,11 @@ button:hover,
 }
 .tabs .tab-content .tab-title {
   text-transform: capitalize;
+  font-size: 16px;
 }
 .tabs .tab-content .tap-excerpt {
   color: #7e7e7e;
+  font-weight: 500;
 }
 
 ::selection {

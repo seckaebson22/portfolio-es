@@ -1,17 +1,14 @@
 .tabs {
     .tabs-nav {
-        // margin: 20px 0;
         margin: 0;
         padding: 0;
         list-style: none;
         text-transform: capitalize;
         display: flex;
         flex-wrap: wrap;
-        // justify-content: space-around;
         justify-content: space-between;
 
         li {
-        
             position: relative;
             display: inline-block;
             padding-bottom: 4px;
@@ -60,6 +57,7 @@
         display: none;
         margin: 20px 0;
         padding: -10px 0;
+        font-size: 16px;
 
         .tab-container {
             padding: 10px 0
@@ -71,10 +69,12 @@
 
         .tab-title {
             text-transform: capitalize;
+            font-size: 16px;
         }
 
         .tap-excerpt {
             color: #7e7e7e;
+            font-weight: 500;
         }
     }
 }
