@@ -23,7 +23,13 @@
         padding-left: 40px;
         padding-right: 40px;
     }
+
+    &.small {
+        max-width: 1120px;
+    }
 }
+
+
 
 .scale-image {
     overflow: hidden;

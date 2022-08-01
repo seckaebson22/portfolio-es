@@ -1,5 +1,5 @@
 .section {
-    padding: 100px 0;
+    padding: 120px 0;
 
     .section-content {
         text-align: center;
@@ -15,6 +15,62 @@
             color: $text_color;
             color: #717173;
             padding: 10px 0 40px 0;
+        }
+
+        &.alt {
+            text-align: justify;
+
+            .section-excerpt {
+                max-width: 500px;
+                margin-left: 0;
+            }
+        }
+    }
+
+    .section-button {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    &.hero {
+        background-color: #F8F9FC;
+        position: relative;
+        min-height: 600px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+
+        .scale-image {
+            img {
+                border-radius: 100%;
+                border: 10px solid $text-color;
+                opacity: 0.7;
+            }
+        }
+
+        .hero-subtitle {
+            color: #1f1f25;
+            font-family: $font-family-alt;
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        .hero-title {
+            padding: 20px 0;
+        }
+
+        .section-content {
+            @include until($small-tablet){
+                text-align: center;
+            }
+        }
+    }
+
+    &.about {
+        // padding-bottom: 0;
+        padding-top: 0;
+        .scale-image {
+            border-radius: 6px;
         }
     }
 }
