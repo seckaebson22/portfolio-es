@@ -67,10 +67,18 @@
     }
 
     &.about {
-        // padding-bottom: 0;
+        
         padding-top: 0;
         .scale-image {
             border-radius: 6px;
+
+            img {
+                display: none;
+
+                &.is-active {
+                    display: block;
+                }
+            }
         }
     }
 }

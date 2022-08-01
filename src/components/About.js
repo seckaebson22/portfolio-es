@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from "react";
-import logo from "./../images/logo.jpg";
+import mainSkills from "./../images/skills.jpg";
+import experience from "./../images/award.jpg";
+import Education from "./../images/Education.jpg";
 // import classNames from 'classnames';
 
 const tabItems = [
     {
         id: 1,
         title: "main skills",
+        logo: mainSkills,
         content: [
             {
                 title: "frontend",
@@ -24,6 +27,7 @@ const tabItems = [
     {
         id: 2,
         title: "experience",
+        logo: experience,
         content: [
             {
                 title: "Xanda LTD (xanda.net) 09/2020 - 04/2022",
@@ -40,6 +44,7 @@ const tabItems = [
     {
         id: 3,
         title: "education & certification",
+        logo: Education,
         content: [
             {
                 title: "Bsc. Computer Science (Cum Laude)",
@@ -74,7 +79,14 @@ const About = () => {
                 <div className="grid alt">
                     <div className="grid-xs-12 grid-s-4 grid-md-4">
                         <div className="scale-image">
-                            <img src={logo} alt="my logo" />
+                            {
+                                tabItems.map(({logo, id}) => {
+                                    return(
+                                        <img className={active === id ? 'is-active' : ''} active={active === id} src={logo} id={id} alt="my logo" />
+                                    )
+                                })
+                            }
+                            
                         </div>
                     </div>
                     <div className="grid-xs-12 grid-s-8 grid-md-8">

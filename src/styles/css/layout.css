@@ -1525,6 +1525,12 @@ table td {
 .section.about .scale-image {
   border-radius: 6px;
 }
+.section.about .scale-image img {
+  display: none;
+}
+.section.about .scale-image img.is-active {
+  display: block;
+}
 
 .item {
   position: relative;
