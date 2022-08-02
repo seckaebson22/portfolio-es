@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import mainSkills from "./../images/skills.jpg";
+import mainSkills from "./../images/skills.png";
 import experience from "./../images/award.jpg";
 import Education from "./../images/Education.jpg";
 // import classNames from 'classnames';
