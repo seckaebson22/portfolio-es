@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "4b2acfa22dcc8fadd8bf",
+    "revision": "7a03c9cf4e2534ca2c03",
     "url": "/portfolio-es/static/css/main.b40de54d.chunk.css"
   },
   {
-    "revision": "4b2acfa22dcc8fadd8bf",
-    "url": "/portfolio-es/static/js/main.4b2acfa2.chunk.js"
+    "revision": "7a03c9cf4e2534ca2c03",
+    "url": "/portfolio-es/static/js/main.7a03c9cf.chunk.js"
   },
   {
     "revision": "5d345a0a51ea3aac5306",
@@ -24,10 +24,6 @@ self.__precacheManifest = [
     "url": "/portfolio-es/static/media/logo.97b4b32c.jpg"
   },
   {
-    "revision": "932f2b008c559f677fd893a483dbe610",
-    "url": "/portfolio-es/static/media/skills.932f2b00.jpg"
-  },
-  {
     "revision": "378298a8f4bff2e5b0d54bc746c2840d",
     "url": "/portfolio-es/static/media/award.378298a8.jpg"
   },
@@ -40,7 +36,7 @@ self.__precacheManifest = [
     "url": "/portfolio-es/static/media/Resume.9312f1fb.pdf"
   },
   {
-    "revision": "9c80a2f30a5a447e87b03e5b068eec56",
+    "revision": "733924f4e445248a8f07619be07bf48a",
     "url": "/portfolio-es/index.html"
   }
 ];

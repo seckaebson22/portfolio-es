@@ -1,19 +1,18 @@
 {
   "main.css": "/portfolio-es/static/css/main.b40de54d.chunk.css",
-  "main.js": "/portfolio-es/static/js/main.4b2acfa2.chunk.js",
-  "main.js.map": "/portfolio-es/static/js/main.4b2acfa2.chunk.js.map",
+  "main.js": "/portfolio-es/static/js/main.7a03c9cf.chunk.js",
+  "main.js.map": "/portfolio-es/static/js/main.7a03c9cf.chunk.js.map",
   "static/js/1.5d345a0a.chunk.js": "/portfolio-es/static/js/1.5d345a0a.chunk.js",
   "static/js/1.5d345a0a.chunk.js.map": "/portfolio-es/static/js/1.5d345a0a.chunk.js.map",
   "runtime~main.js": "/portfolio-es/static/js/runtime~main.c44b2225.js",
   "runtime~main.js.map": "/portfolio-es/static/js/runtime~main.c44b2225.js.map",
   "static/media/github-npm.png": "/portfolio-es/static/media/github-npm.9c617f62.png",
   "static/media/logo.jpg": "/portfolio-es/static/media/logo.97b4b32c.jpg",
-  "static/media/skills.jpg": "/portfolio-es/static/media/skills.932f2b00.jpg",
   "static/media/award.jpg": "/portfolio-es/static/media/award.378298a8.jpg",
   "static/media/Education.jpg": "/portfolio-es/static/media/Education.0db8a946.jpg",
   "static/media/Resume.pdf": "/portfolio-es/static/media/Resume.9312f1fb.pdf",
   "static/css/main.b40de54d.chunk.css.map": "/portfolio-es/static/css/main.b40de54d.chunk.css.map",
   "index.html": "/portfolio-es/index.html",
-  "precache-manifest.be71dee5066ffba4eb5a39ce8e286d4d.js": "/portfolio-es/precache-manifest.be71dee5066ffba4eb5a39ce8e286d4d.js",
+  "precache-manifest.e72c0c80f9f372eca7052f5c64f412a1.js": "/portfolio-es/precache-manifest.e72c0c80f9f372eca7052f5c64f412a1.js",
   "service-worker.js": "/portfolio-es/service-worker.js"
 }
