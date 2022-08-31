@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e7534ab691bcddf11053",
+    "revision": "c2974d91b57f35855521",
     "url": "/portfolio-es/static/css/main.e75dd933.chunk.css"
   },
   {
-    "revision": "e7534ab691bcddf11053",
-    "url": "/portfolio-es/static/js/main.e7534ab6.chunk.js"
+    "revision": "c2974d91b57f35855521",
+    "url": "/portfolio-es/static/js/main.c2974d91.chunk.js"
   },
   {
     "revision": "9290f084429cb1bda019",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/portfolio-es/static/media/Education.0db8a946.jpg"
   },
   {
-    "revision": "9312f1fb2de871f398b8f3e5307cc725",
-    "url": "/portfolio-es/static/media/Resume.9312f1fb.pdf"
+    "revision": "434be9c3e31f964e6a8a2dee1bb8c668",
+    "url": "/portfolio-es/static/media/Resume.434be9c3.pdf"
   },
   {
     "revision": "db77e997749270bc1a35c1b55d08da5e",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/portfolio-es/static/media/link-britannia.56b8576f.png"
   },
   {
-    "revision": "2246021279b4ed46ae1b12fb846dda07",
-    "url": "/portfolio-es/static/media/fresh-and-funky.22460212.png"
+    "revision": "9cf9b42916773dfb2ce35cbbd205b95f",
+    "url": "/portfolio-es/static/media/fresh-and-funky.9cf9b429.jpg"
   },
   {
     "revision": "63ae15cdf3740deefd2f207abb1336f8",
@@ -56,11 +56,7 @@ self.__precacheManifest = [
     "url": "/portfolio-es/static/media/ebaaba-vendor-dashboard.12f284f6.png"
   },
   {
-    "revision": "9c617f6284024c07e6b7567a225668d7",
-    "url": "/portfolio-es/static/media/github-npm.9c617f62.png"
-  },
-  {
-    "revision": "a00db8fe528394f8ffc71f4a7c7ab3ff",
+    "revision": "d837fa24b872515e342a7dc02f250a01",
     "url": "/portfolio-es/index.html"
   }
 ];
