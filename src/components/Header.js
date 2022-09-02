@@ -10,11 +10,11 @@ const menus = [
     },
     {
         id: 2,
-        title: 'about'
+        title: 'portfolio'
     },
     {
         id: 3,
-        title: 'portfolio'
+        title: 'about'
     }
 ]
 

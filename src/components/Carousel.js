@@ -12,7 +12,7 @@ const qualification = [
     'Frontend Developer',
     'Backend Developer',
     'WordPress Developer',
-    'MERN Stack Developer'
+    'Full Stack Developer'
 ]
 
 

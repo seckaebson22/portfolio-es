@@ -4,7 +4,7 @@ import Carousel from './Carousel';
 
 const Hero = () => {
     return (
-        <div className="section hero" id='home'>
+        <section className="section hero" id='home'>
             <div className="centering small">
                 <div className="grid alt">
                     <div className="grid-xs-12 grid-s-4 grid-md-4">
@@ -22,7 +22,7 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
