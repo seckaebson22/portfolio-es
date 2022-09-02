@@ -1,7 +1,7 @@
 {
   "main.css": "/portfolio-es/static/css/main.e75dd933.chunk.css",
-  "main.js": "/portfolio-es/static/js/main.c2974d91.chunk.js",
-  "main.js.map": "/portfolio-es/static/js/main.c2974d91.chunk.js.map",
+  "main.js": "/portfolio-es/static/js/main.d852bc8c.chunk.js",
+  "main.js.map": "/portfolio-es/static/js/main.d852bc8c.chunk.js.map",
   "static/js/1.9290f084.chunk.js": "/portfolio-es/static/js/1.9290f084.chunk.js",
   "static/js/1.9290f084.chunk.js.map": "/portfolio-es/static/js/1.9290f084.chunk.js.map",
   "runtime~main.js": "/portfolio-es/static/js/runtime~main.c44b2225.js",
@@ -18,6 +18,6 @@
   "static/media/ebaaba-vendor-dashboard.png": "/portfolio-es/static/media/ebaaba-vendor-dashboard.12f284f6.png",
   "static/css/main.e75dd933.chunk.css.map": "/portfolio-es/static/css/main.e75dd933.chunk.css.map",
   "index.html": "/portfolio-es/index.html",
-  "precache-manifest.ffbc2bd453613d6e7763b80c19d5edb8.js": "/portfolio-es/precache-manifest.ffbc2bd453613d6e7763b80c19d5edb8.js",
+  "precache-manifest.a94f11d78f86baadd07a0ed2021df25c.js": "/portfolio-es/precache-manifest.a94f11d78f86baadd07a0ed2021df25c.js",
   "service-worker.js": "/portfolio-es/service-worker.js"
 }

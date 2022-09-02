@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c2974d91b57f35855521",
+    "revision": "d852bc8c62eaf9ad814b",
     "url": "/portfolio-es/static/css/main.e75dd933.chunk.css"
   },
   {
-    "revision": "c2974d91b57f35855521",
-    "url": "/portfolio-es/static/js/main.c2974d91.chunk.js"
+    "revision": "d852bc8c62eaf9ad814b",
+    "url": "/portfolio-es/static/js/main.d852bc8c.chunk.js"
   },
   {
     "revision": "9290f084429cb1bda019",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/portfolio-es/static/media/ebaaba-vendor-dashboard.12f284f6.png"
   },
   {
-    "revision": "d837fa24b872515e342a7dc02f250a01",
+    "revision": "07e71ff405efac3da4bbe9fbbbcd93cc",
     "url": "/portfolio-es/index.html"
   }
 ];
