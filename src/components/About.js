@@ -74,7 +74,7 @@ const About = () => {
     }   
 
     return (
-        <div className="section about" id="about">
+        <section className="section about" id="about">
             <div className="centering small">
                 <div className="grid alt">
                     <div className="grid-xs-12 grid-s-4 grid-md-4">
@@ -133,7 +133,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
