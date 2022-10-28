@@ -1,23 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "70c5b2d5d47c2af545a3",
-    "url": "/portfolio-es/static/css/main.51f23348.chunk.css"
+    "revision": "a2ebcbeb4ed2da516c61",
+    "url": "/portfolio-es/static/css/main.c5b648df.chunk.css"
   },
   {
-    "revision": "70c5b2d5d47c2af545a3",
-    "url": "/portfolio-es/static/js/main.70c5b2d5.chunk.js"
+    "revision": "a2ebcbeb4ed2da516c61",
+    "url": "/portfolio-es/static/js/main.a2ebcbeb.chunk.js"
   },
   {
-    "revision": "9290f084429cb1bda019",
-    "url": "/portfolio-es/static/js/1.9290f084.chunk.js"
+    "revision": "818bdc0ca501780c58a4",
+    "url": "/portfolio-es/static/js/1.818bdc0c.chunk.js"
   },
   {
     "revision": "c44b222507f100ce4a9b",
     "url": "/portfolio-es/static/js/runtime~main.c44b2225.js"
-  },
-  {
-    "revision": "97b4b32cb297659809b8da37c31e74f9",
-    "url": "/portfolio-es/static/media/logo.97b4b32c.jpg"
   },
   {
     "revision": "378298a8f4bff2e5b0d54bc746c2840d",
@@ -28,8 +24,16 @@ self.__precacheManifest = [
     "url": "/portfolio-es/static/media/Education.0db8a946.jpg"
   },
   {
+    "revision": "97b4b32cb297659809b8da37c31e74f9",
+    "url": "/portfolio-es/static/media/logo.97b4b32c.jpg"
+  },
+  {
     "revision": "33096ccaa3061fa0c00eeb2fc02f5821",
     "url": "/portfolio-es/static/media/Resume.33096cca.pdf"
+  },
+  {
+    "revision": "c086e8a9cdc9db3a7f44e0159f95f46b",
+    "url": "/portfolio-es/static/media/seckaby.c086e8a9.jpeg"
   },
   {
     "revision": "db77e997749270bc1a35c1b55d08da5e",
@@ -56,7 +60,7 @@ self.__precacheManifest = [
     "url": "/portfolio-es/static/media/ebaaba-vendor-dashboard.12f284f6.png"
   },
   {
-    "revision": "6ee88a6cfe817cfee9301e46cc43bf7c",
+    "revision": "16a77429e205e9db5e57702db39c6d43",
     "url": "/portfolio-es/index.html"
   }
 ];
