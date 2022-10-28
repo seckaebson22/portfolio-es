@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import mainSkills from "./../images/skills.png";
 import experience from "./../images/award.jpg";
 import Education from "./../images/Education.jpg";
+import JarvisesCertificate from './../images/jarvises.pdf';
 // import classNames from 'classnames';
 
 const tabItems = [
@@ -56,8 +57,9 @@ const tabItems = [
                 excerpt: "I completed a undergraduate degree in Computer Science at the University of the Gambia between January 2016 to December 2019",
             },
             {
-                title: "West African Examination Counsel",
-                excerpt: "Completed a there year Senior Secondary School Certificate at Charles Jaw Senior Secondary School in 2015",
+                title: "Certificate on Organisational Behaviour",
+                excerpt: "Completed a summer course on Organisational Behaviour at Jarvis Christian University",
+                link: JarvisesCertificate,
             },
         ],
     },
@@ -68,7 +70,7 @@ const About = () => {
     const [active, setActive] = useState(0);
 
     useEffect(() => {
-       setActive(1);
+        setActive(1);
     }, []);
 
     const handleClick = (e) => {
@@ -76,7 +78,7 @@ const About = () => {
         if (index !== active) {
             setActive(index);
         }
-    }   
+    }
 
     return (
         <section className="section about" id="about">
@@ -85,13 +87,13 @@ const About = () => {
                     <div className="grid-xs-12 grid-s-4 grid-md-4">
                         <div className="scale-image">
                             {
-                                tabItems.map(({logo, id}) => {
-                                    return(
+                                tabItems.map(({ logo, id }) => {
+                                    return (
                                         <img className={active === id ? 'is-active' : ''} active={active === id} src={logo} id={id} alt="my logo" />
                                     )
                                 })
                             }
-                            
+
                         </div>
                     </div>
                     <div className="grid-xs-12 grid-s-8 grid-md-8">
@@ -117,12 +119,15 @@ const About = () => {
                                     return (
                                         <div className={!(active === id) ? 'tab-content' : 'tab-content is-active'} id={id} active={active === id}>
                                             {
-                                                content.map(({ title, excerpt }) => {
+                                                content.map(({ title, excerpt, link }) => {
                                                     return (
                                                         <div className="tab-container">
                                                             <h4 className="tab-title">{title}</h4>
                                                             <div className="tab-excerpt">
-                                                                <p>{excerpt}</p>
+                                                                <p>{excerpt} {title === 'Certificate on Organisational Behaviour' && (
+                                                                    <a class="button-view" href={link} target="_blank">. Click to View Certificate</a>
+                                                                )}</p>
+
                                                             </div>
                                                         </div>
                                                     )

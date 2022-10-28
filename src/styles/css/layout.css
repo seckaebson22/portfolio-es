@@ -1651,6 +1651,13 @@ button:hover,
   border: 2px solid #c6c9d8;
 }
 
+.button-view {
+  color: #5F30FF;
+}
+.button-view:hover {
+  color: black;
+}
+
 .hamburger {
   width: 30px;
   height: 21px;
