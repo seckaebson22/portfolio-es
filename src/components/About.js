@@ -30,9 +30,14 @@ const tabItems = [
         logo: experience,
         content: [
             {
+                title: "The Web Way (thewebway.info) 08/2022 - 10/2022",
+                excerpt:
+                    "I worked as a full stack developer. My responsibilities where primarily focused on building custom WordPress themes. The programming tools I use there includes but are not limited  to HTML, CSS, JavaScript(Jquery) and Other JavaScript libraries",
+            },
+            {
                 title: "Xanda LTD (xanda.net) 09/2020 - 04/2022",
                 excerpt:
-                    "I worked as a full stack developer. My responsibilities where primarily focuse on building custom WordPress themes. so I design the frontend with HTML, CSS and JavaScript and make it dyamic with custom PHP in wordPress",
+                    "I worked as a full stack developer. My responsibilities where primarily focused on building custom WordPress themes. The programming tools I use there includes but are not limited  to HTML, CSS, JavaScript(Jquery) and Other JavaScript libraries",
             },
             {
                 title: "Ebaaba LTD (ebaaba.com) 02/2020 - 08/2020",

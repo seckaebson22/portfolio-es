@@ -12,10 +12,8 @@ The CSS files from external libraries and frameworks
  */
 @import url("https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&family=Lato:wght@400;700;900&family=Montserrat:wght@400;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap");
 html {
-  line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
 }
 
 /* Sections
@@ -43,12 +41,9 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  box-sizing: content-box;
-  /* 1 */
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
 }
 
 /**
@@ -56,10 +51,8 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /* Text-level semantics
@@ -76,12 +69,9 @@ a {
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] {
-  border-bottom: none;
-  /* 1 */
-  text-decoration: underline;
-  /* 2 */
-  text-decoration: underline dotted;
-  /* 2 */
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -99,10 +89,8 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /**
@@ -152,14 +140,10 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
 }
 
 /**
@@ -167,8 +151,7 @@ textarea {
  * 1. Show the overflow in Edge.
  */
 button,
-input {
-  /* 1 */
+input { /* 1 */
   overflow: visible;
 }
 
@@ -177,8 +160,7 @@ input {
  * 1. Remove the inheritance of text transform in Firefox.
  */
 button,
-select {
-  /* 1 */
+select { /* 1 */
   text-transform: none;
 }
 
@@ -227,18 +209,12 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  box-sizing: border-box;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  padding: 0;
-  /* 3 */
-  white-space: normal;
-  /* 1 */
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
 }
 
 /**
@@ -261,10 +237,8 @@ textarea {
  */
 [type=checkbox],
 [type=radio] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
 }
 
 /**
@@ -280,10 +254,8 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type=search] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
 }
 
 /**
@@ -298,10 +270,8 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
 }
 
 /* Interactive
@@ -382,7 +352,7 @@ https://flickity.metafizzy.co
 /* ---- flickity-button ---- */
 .flickity-button {
   position: absolute;
-  background: rgba(255, 255, 255, 0.75);
+  background: hsla(0deg, 0%, 100%, 0.75);
   border: none;
   color: #333;
 }
@@ -512,6 +482,15 @@ button {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+@media screen and (max-width: 1023px) {
+  body,
+input,
+textarea,
+select,
+button {
+    font-size: 14px;
+  }
+}
 
 h1,
 h2,
@@ -620,6 +599,11 @@ a:hover {
 
 p {
   margin: 0 0 1em;
+}
+@media screen and (max-width: 1023px) {
+  p {
+    font-size: 16px;
+  }
 }
 
 p:empty,
@@ -1024,95 +1008,72 @@ nav ul,
   .grid-sm-1 {
     width: calc(100% / (12 / 1));
   }
-
   .offset-sm-1 {
     margin-left: calc(100% / (12 / 1));
   }
-
   .grid-sm-2 {
     width: calc(100% / (12 / 2));
   }
-
   .offset-sm-2 {
     margin-left: calc(100% / (12 / 2));
   }
-
   .grid-sm-3 {
     width: calc(100% / (12 / 3));
   }
-
   .offset-sm-3 {
     margin-left: calc(100% / (12 / 3));
   }
-
   .grid-sm-4 {
     width: calc(100% / (12 / 4));
   }
-
   .offset-sm-4 {
     margin-left: calc(100% / (12 / 4));
   }
-
   .grid-sm-5 {
     width: calc(100% / (12 / 5));
   }
-
   .offset-sm-5 {
     margin-left: calc(100% / (12 / 5));
   }
-
   .grid-sm-6 {
     width: calc(100% / (12 / 6));
   }
-
   .offset-sm-6 {
     margin-left: calc(100% / (12 / 6));
   }
-
   .grid-sm-7 {
     width: calc(100% / (12 / 7));
   }
-
   .offset-sm-7 {
     margin-left: calc(100% / (12 / 7));
   }
-
   .grid-sm-8 {
     width: calc(100% / (12 / 8));
   }
-
   .offset-sm-8 {
     margin-left: calc(100% / (12 / 8));
   }
-
   .grid-sm-9 {
     width: calc(100% / (12 / 9));
   }
-
   .offset-sm-9 {
     margin-left: calc(100% / (12 / 9));
   }
-
   .grid-sm-10 {
     width: calc(100% / (12 / 10));
   }
-
   .offset-sm-10 {
     margin-left: calc(100% / (12 / 10));
   }
-
   .grid-sm-11 {
     width: calc(100% / (12 / 11));
   }
-
   .offset-sm-11 {
     margin-left: calc(100% / (12 / 11));
   }
-
   .grid-sm-12 {
     width: calc(100% / (12 / 12));
   }
-
   .offset-sm-12 {
     margin-left: calc(100% / (12 / 12));
   }
@@ -1121,95 +1082,72 @@ nav ul,
   .grid-s-1 {
     width: calc(100% / (12 / 1));
   }
-
   .offset-s-1 {
     margin-left: calc(100% / (12 / 1));
   }
-
   .grid-s-2 {
     width: calc(100% / (12 / 2));
   }
-
   .offset-s-2 {
     margin-left: calc(100% / (12 / 2));
   }
-
   .grid-s-3 {
     width: calc(100% / (12 / 3));
   }
-
   .offset-s-3 {
     margin-left: calc(100% / (12 / 3));
   }
-
   .grid-s-4 {
     width: calc(100% / (12 / 4));
   }
-
   .offset-s-4 {
     margin-left: calc(100% / (12 / 4));
   }
-
   .grid-s-5 {
     width: calc(100% / (12 / 5));
   }
-
   .offset-s-5 {
     margin-left: calc(100% / (12 / 5));
   }
-
   .grid-s-6 {
     width: calc(100% / (12 / 6));
   }
-
   .offset-s-6 {
     margin-left: calc(100% / (12 / 6));
   }
-
   .grid-s-7 {
     width: calc(100% / (12 / 7));
   }
-
   .offset-s-7 {
     margin-left: calc(100% / (12 / 7));
   }
-
   .grid-s-8 {
     width: calc(100% / (12 / 8));
   }
-
   .offset-s-8 {
     margin-left: calc(100% / (12 / 8));
   }
-
   .grid-s-9 {
     width: calc(100% / (12 / 9));
   }
-
   .offset-s-9 {
     margin-left: calc(100% / (12 / 9));
   }
-
   .grid-s-10 {
     width: calc(100% / (12 / 10));
   }
-
   .offset-s-10 {
     margin-left: calc(100% / (12 / 10));
   }
-
   .grid-s-11 {
     width: calc(100% / (12 / 11));
   }
-
   .offset-s-11 {
     margin-left: calc(100% / (12 / 11));
   }
-
   .grid-s-12 {
     width: calc(100% / (12 / 12));
   }
-
   .offset-s-12 {
     margin-left: calc(100% / (12 / 12));
   }
@@ -1218,95 +1156,72 @@ nav ul,
   .grid-m-1 {
     width: calc(100% / (12 / 1));
   }
-
   .offset-m-1 {
     margin-left: calc(100% / (12 / 1));
   }
-
   .grid-m-2 {
     width: calc(100% / (12 / 2));
   }
-
   .offset-m-2 {
     margin-left: calc(100% / (12 / 2));
   }
-
   .grid-m-3 {
     width: calc(100% / (12 / 3));
   }
-
   .offset-m-3 {
     margin-left: calc(100% / (12 / 3));
   }
-
   .grid-m-4 {
     width: calc(100% / (12 / 4));
   }
-
   .offset-m-4 {
     margin-left: calc(100% / (12 / 4));
   }
-
   .grid-m-5 {
     width: calc(100% / (12 / 5));
   }
-
   .offset-m-5 {
     margin-left: calc(100% / (12 / 5));
   }
-
   .grid-m-6 {
     width: calc(100% / (12 / 6));
   }
-
   .offset-m-6 {
     margin-left: calc(100% / (12 / 6));
   }
-
   .grid-m-7 {
     width: calc(100% / (12 / 7));
   }
-
   .offset-m-7 {
     margin-left: calc(100% / (12 / 7));
   }
-
   .grid-m-8 {
     width: calc(100% / (12 / 8));
   }
-
   .offset-m-8 {
     margin-left: calc(100% / (12 / 8));
   }
-
   .grid-m-9 {
     width: calc(100% / (12 / 9));
   }
-
   .offset-m-9 {
     margin-left: calc(100% / (12 / 9));
   }
-
   .grid-m-10 {
     width: calc(100% / (12 / 10));
   }
-
   .offset-m-10 {
     margin-left: calc(100% / (12 / 10));
   }
-
   .grid-m-11 {
     width: calc(100% / (12 / 11));
   }
-
   .offset-m-11 {
     margin-left: calc(100% / (12 / 11));
   }
-
   .grid-m-12 {
     width: calc(100% / (12 / 12));
   }
-
   .offset-m-12 {
     margin-left: calc(100% / (12 / 12));
   }
@@ -1315,95 +1230,72 @@ nav ul,
   .grid-md-1 {
     width: calc(100% / (12 / 1));
   }
-
   .offset-md-1 {
     margin-left: calc(100% / (12 / 1));
   }
-
   .grid-md-2 {
     width: calc(100% / (12 / 2));
   }
-
   .offset-md-2 {
     margin-left: calc(100% / (12 / 2));
   }
-
   .grid-md-3 {
     width: calc(100% / (12 / 3));
   }
-
   .offset-md-3 {
     margin-left: calc(100% / (12 / 3));
   }
-
   .grid-md-4 {
     width: calc(100% / (12 / 4));
   }
-
   .offset-md-4 {
     margin-left: calc(100% / (12 / 4));
   }
-
   .grid-md-5 {
     width: calc(100% / (12 / 5));
   }
-
   .offset-md-5 {
     margin-left: calc(100% / (12 / 5));
   }
-
   .grid-md-6 {
     width: calc(100% / (12 / 6));
   }
-
   .offset-md-6 {
     margin-left: calc(100% / (12 / 6));
   }
-
   .grid-md-7 {
     width: calc(100% / (12 / 7));
   }
-
   .offset-md-7 {
     margin-left: calc(100% / (12 / 7));
   }
-
   .grid-md-8 {
     width: calc(100% / (12 / 8));
   }
-
   .offset-md-8 {
     margin-left: calc(100% / (12 / 8));
   }
-
   .grid-md-9 {
     width: calc(100% / (12 / 9));
   }
-
   .offset-md-9 {
     margin-left: calc(100% / (12 / 9));
   }
-
   .grid-md-10 {
     width: calc(100% / (12 / 10));
   }
-
   .offset-md-10 {
     margin-left: calc(100% / (12 / 10));
   }
-
   .grid-md-11 {
     width: calc(100% / (12 / 11));
   }
-
   .offset-md-11 {
     margin-left: calc(100% / (12 / 11));
   }
-
   .grid-md-12 {
     width: calc(100% / (12 / 12));
   }
-
   .offset-md-12 {
     margin-left: calc(100% / (12 / 12));
   }
@@ -1412,95 +1304,72 @@ nav ul,
   .grid-1 {
     width: calc(100% / (12 / 1));
   }
-
   .offset-1 {
     margin-left: calc(100% / (12 / 1));
   }
-
   .grid-2 {
     width: calc(100% / (12 / 2));
   }
-
   .offset-2 {
     margin-left: calc(100% / (12 / 2));
   }
-
   .grid-3 {
     width: calc(100% / (12 / 3));
   }
-
   .offset-3 {
     margin-left: calc(100% / (12 / 3));
   }
-
   .grid-4 {
     width: calc(100% / (12 / 4));
   }
-
   .offset-4 {
     margin-left: calc(100% / (12 / 4));
   }
-
   .grid-5 {
     width: calc(100% / (12 / 5));
   }
-
   .offset-5 {
     margin-left: calc(100% / (12 / 5));
   }
-
   .grid-6 {
     width: calc(100% / (12 / 6));
   }
-
   .offset-6 {
     margin-left: calc(100% / (12 / 6));
   }
-
   .grid-7 {
     width: calc(100% / (12 / 7));
   }
-
   .offset-7 {
     margin-left: calc(100% / (12 / 7));
   }
-
   .grid-8 {
     width: calc(100% / (12 / 8));
   }
-
   .offset-8 {
     margin-left: calc(100% / (12 / 8));
   }
-
   .grid-9 {
     width: calc(100% / (12 / 9));
   }
-
   .offset-9 {
     margin-left: calc(100% / (12 / 9));
   }
-
   .grid-10 {
     width: calc(100% / (12 / 10));
   }
-
   .offset-10 {
     margin-left: calc(100% / (12 / 10));
   }
-
   .grid-11 {
     width: calc(100% / (12 / 11));
   }
-
   .offset-11 {
     margin-left: calc(100% / (12 / 11));
   }
-
   .grid-12 {
     width: calc(100% / (12 / 12));
   }
-
   .offset-12 {
     margin-left: calc(100% / (12 / 12));
   }
@@ -1638,16 +1507,29 @@ table td {
   padding-top: 20px;
 }
 .section.hero {
-  background-color: #F8F9FC;
+  background-color: #f8f9fc;
   position: relative;
   min-height: 600px;
   padding: 0;
   display: flex;
   align-items: center;
 }
+.section.hero .scale-image {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .section.hero .scale-image {
+    padding-bottom: 0;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+  }
+}
 .section.hero .scale-image img {
-  border-radius: 4px;
   opacity: 0.7;
+  background: #e9f0e7;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 .section.hero .hero-subtitle {
   color: #1f1f25;

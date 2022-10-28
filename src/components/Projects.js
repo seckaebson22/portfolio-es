@@ -67,7 +67,7 @@ const Projects = () => {
                     {
                         itemData.map(({ id, img, item_subtitle, item_title, link}) => {
                             return (
-                                <div className='grid-xs-12 grid-s-6 grid-m-4 grid-md-4' id={id}>
+                                <div className='grid-xs-12 grid-sm-6 grid-s-6 grid-m-4 grid-md-4' id={id}>
                                     <div className='item'>
                                         <a href={link} className='item-image scale-image'>
                                             <img src={img} alt="Logo" />

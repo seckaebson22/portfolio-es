@@ -1,83 +1,95 @@
 .section {
-    padding: 120px 0;
+  padding: 120px 0;
+
+  .section-content {
+    text-align: center;
+
+    .section-title {
+      text-transform: capitalize;
+    }
+
+    .section-excerpt {
+      font-size: 18px;
+      max-width: 700px;
+      margin: auto;
+      color: $text_color;
+      color: #717173;
+      padding: 10px 0 40px 0;
+    }
+
+    &.alt {
+      text-align: justify;
+
+      .section-excerpt {
+        max-width: 500px;
+        margin-left: 0;
+      }
+    }
+  }
+
+  .section-button {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  &.hero {
+    background-color: #f8f9fc;
+    position: relative;
+    min-height: 600px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+
+    .scale-image {
+      box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%),
+        0 3px 1px -2px rgb(0 0 0 / 20%);
+      border-radius: 10px;
+
+      @include between($mobile, $small-tablet) {
+        padding-bottom: 0;
+        width: 400px;
+        height: 400px;
+        margin: auto;
+      }
+
+      img {
+        // border-radius: 4px;
+        opacity: 0.7;
+        background: #e9f0e7;
+        box-shadow: 2px 2px 2px rgb(0 0 0 / 20%);
+      }
+    }
+
+    .hero-subtitle {
+      color: #1f1f25;
+      font-family: $font-family-alt;
+      font-size: 20px;
+      font-weight: 400;
+    }
+
+    .hero-title {
+      padding: 20px 0;
+    }
 
     .section-content {
+      @include until($small-tablet) {
         text-align: center;
-
-        .section-title {
-            text-transform: capitalize;
-        }
-
-        .section-excerpt {
-            font-size: 18px;
-            max-width: 700px;
-            margin: auto;
-            color: $text_color;
-            color: #717173;
-            padding: 10px 0 40px 0;
-        }
-
-        &.alt {
-            text-align: justify;
-
-            .section-excerpt {
-                max-width: 500px;
-                margin-left: 0;
-            }
-        }
+      }
     }
+  }
 
-    .section-button {
-        text-align: center;
-        padding-top: 20px;
+  &.about {
+    padding-top: 0;
+    .scale-image {
+      border-radius: 6px;
+
+      img {
+        display: none;
+
+        &.is-active {
+          display: block;
+        }
+      }
     }
-
-    &.hero {
-        background-color: #F8F9FC;
-        position: relative;
-        min-height: 600px;
-        padding: 0;
-        display: flex;
-        align-items: center;
-
-        .scale-image {
-            img {
-                border-radius: 4px;
-                opacity: 0.7;
-            }
-        }
-
-        .hero-subtitle {
-            color: #1f1f25;
-            font-family: $font-family-alt;
-            font-size: 20px;
-            font-weight: 400;
-        }
-
-        .hero-title {
-            padding: 20px 0;
-        }
-
-        .section-content {
-            @include until($small-tablet){
-                text-align: center;
-            }
-        }
-    }
-
-    &.about {
-        
-        padding-top: 0;
-        .scale-image {
-            border-radius: 6px;
-
-            img {
-                display: none;
-
-                &.is-active {
-                    display: block;
-                }
-            }
-        }
-    }
+  }
 }
