@@ -1767,12 +1767,21 @@ button:hover,
   display: block;
 }
 .tabs .tab-content .tab-title {
-  text-transform: capitalize;
   font-size: 16px;
 }
 .tabs .tab-content .tap-excerpt {
   color: #7e7e7e;
   font-weight: 500;
+}
+
+.tabs-logo {
+  display: none;
+}
+.tabs-logo.is-active {
+  display: block;
+}
+.tabs-logo .icon {
+  color: #5f30ff;
 }
 
 ::selection {
