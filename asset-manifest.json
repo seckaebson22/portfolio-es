@@ -1,13 +1,13 @@
 {
   "main.css": "/portfolio-es/static/css/main.482987e9.chunk.css",
-  "main.js": "/portfolio-es/static/js/main.c9409fae.chunk.js",
-  "main.js.map": "/portfolio-es/static/js/main.c9409fae.chunk.js.map",
+  "main.js": "/portfolio-es/static/js/main.f56f055b.chunk.js",
+  "main.js.map": "/portfolio-es/static/js/main.f56f055b.chunk.js.map",
   "static/js/1.1f1506e1.chunk.js": "/portfolio-es/static/js/1.1f1506e1.chunk.js",
   "static/js/1.1f1506e1.chunk.js.map": "/portfolio-es/static/js/1.1f1506e1.chunk.js.map",
   "runtime~main.js": "/portfolio-es/static/js/runtime~main.c44b2225.js",
   "runtime~main.js.map": "/portfolio-es/static/js/runtime~main.c44b2225.js.map",
   "static/media/logo.jpg": "/portfolio-es/static/media/logo.97b4b32c.jpg",
-  "static/media/Resume.pdf": "/portfolio-es/static/media/Resume.33096cca.pdf",
+  "static/media/Resume.pdf": "/portfolio-es/static/media/Resume.809a8867.pdf",
   "static/media/seckaby.jpeg": "/portfolio-es/static/media/seckaby.c086e8a9.jpeg",
   "static/media/cv-uk.png": "/portfolio-es/static/media/cv-uk.db77e997.png",
   "static/media/link-britannia.png": "/portfolio-es/static/media/link-britannia.56b8576f.png",
@@ -17,6 +17,6 @@
   "static/media/ebaaba-vendor-dashboard.png": "/portfolio-es/static/media/ebaaba-vendor-dashboard.12f284f6.png",
   "static/css/main.482987e9.chunk.css.map": "/portfolio-es/static/css/main.482987e9.chunk.css.map",
   "index.html": "/portfolio-es/index.html",
-  "precache-manifest.daec804880b6452c06c4d49b8c263143.js": "/portfolio-es/precache-manifest.daec804880b6452c06c4d49b8c263143.js",
+  "precache-manifest.e9e75e5c12c982c6e5dfb81d3cc322b2.js": "/portfolio-es/precache-manifest.e9e75e5c12c982c6e5dfb81d3cc322b2.js",
   "service-worker.js": "/portfolio-es/service-worker.js"
 }

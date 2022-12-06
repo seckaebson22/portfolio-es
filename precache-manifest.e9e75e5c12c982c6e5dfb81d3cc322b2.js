@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c9409fae1d2ff469e692",
+    "revision": "f56f055bc17567b78db9",
     "url": "/portfolio-es/static/css/main.482987e9.chunk.css"
   },
   {
-    "revision": "c9409fae1d2ff469e692",
-    "url": "/portfolio-es/static/js/main.c9409fae.chunk.js"
+    "revision": "f56f055bc17567b78db9",
+    "url": "/portfolio-es/static/js/main.f56f055b.chunk.js"
   },
   {
     "revision": "1f1506e14cefc9930e2f",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/portfolio-es/static/media/logo.97b4b32c.jpg"
   },
   {
-    "revision": "33096ccaa3061fa0c00eeb2fc02f5821",
-    "url": "/portfolio-es/static/media/Resume.33096cca.pdf"
+    "revision": "809a8867585f9d6d61087c9365e78209",
+    "url": "/portfolio-es/static/media/Resume.809a8867.pdf"
   },
   {
     "revision": "c086e8a9cdc9db3a7f44e0159f95f46b",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/portfolio-es/static/media/ebaaba-vendor-dashboard.12f284f6.png"
   },
   {
-    "revision": "8c1416b04b0c5490a13422ba49c7984a",
+    "revision": "5ad4559d2e77d65d43be2a70c30bffa6",
     "url": "/portfolio-es/index.html"
   }
 ];
