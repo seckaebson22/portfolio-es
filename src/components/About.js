@@ -5,7 +5,7 @@ import React, { useState, useEffect } from "react";
 // import experience from "./../images/icons/briefcase.svg";
 // import Education from "./../images/Education.jpg";
 // import Education from "./../images/icons/cap-graduation-hat-svgrepo-com.svg";
-// import JarvisesCertificate from './../images/jarvises.pdf';
+import JarvisesCertificate from './../images/jarvises.pdf';
 // import classNames from 'classnames';
 
 const tabItems = [
@@ -66,11 +66,11 @@ const tabItems = [
                 title: "Bsc. Computer Science (Cum Laude)",
                 excerpt: "I completed a undergraduate degree in Computer Science at the University of the Gambia between January 2016 to December 2019",
             },
-            // {
-            //     title: "Certificate on Organisational Behaviour",
-            //     excerpt: "Completed a summer course on Organisational Behaviour at Jarvis Christian University",
-            //     link: JarvisesCertificate,
-            // },
+            {
+                title: "Certificate on Organisational Behaviour",
+                excerpt: "Completed a summer course on Organisational Behaviour at Jarvis Christian University",
+                link: JarvisesCertificate,
+            },
         ],
     },
 ];
