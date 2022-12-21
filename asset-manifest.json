@@ -1,11 +1,12 @@
 {
-  "main.css": "/portfolio-es/static/css/main.482987e9.chunk.css",
-  "main.js": "/portfolio-es/static/js/main.f56f055b.chunk.js",
-  "main.js.map": "/portfolio-es/static/js/main.f56f055b.chunk.js.map",
-  "static/js/1.1f1506e1.chunk.js": "/portfolio-es/static/js/1.1f1506e1.chunk.js",
-  "static/js/1.1f1506e1.chunk.js.map": "/portfolio-es/static/js/1.1f1506e1.chunk.js.map",
+  "main.css": "/portfolio-es/static/css/main.e7ac5f65.chunk.css",
+  "main.js": "/portfolio-es/static/js/main.addc5d7a.chunk.js",
+  "main.js.map": "/portfolio-es/static/js/main.addc5d7a.chunk.js.map",
+  "static/js/1.0918c5a3.chunk.js": "/portfolio-es/static/js/1.0918c5a3.chunk.js",
+  "static/js/1.0918c5a3.chunk.js.map": "/portfolio-es/static/js/1.0918c5a3.chunk.js.map",
   "runtime~main.js": "/portfolio-es/static/js/runtime~main.c44b2225.js",
   "runtime~main.js.map": "/portfolio-es/static/js/runtime~main.c44b2225.js.map",
+  "static/media/jarvises.pdf": "/portfolio-es/static/media/jarvises.27e326be.pdf",
   "static/media/logo.jpg": "/portfolio-es/static/media/logo.97b4b32c.jpg",
   "static/media/Resume.pdf": "/portfolio-es/static/media/Resume.809a8867.pdf",
   "static/media/seckaby.jpeg": "/portfolio-es/static/media/seckaby.c086e8a9.jpeg",
@@ -15,8 +16,8 @@
   "static/media/shady-tints.png": "/portfolio-es/static/media/shady-tints.63ae15cd.png",
   "static/media/the-baae-company.png": "/portfolio-es/static/media/the-baae-company.b0f0805d.png",
   "static/media/ebaaba-vendor-dashboard.png": "/portfolio-es/static/media/ebaaba-vendor-dashboard.12f284f6.png",
-  "static/css/main.482987e9.chunk.css.map": "/portfolio-es/static/css/main.482987e9.chunk.css.map",
+  "static/css/main.e7ac5f65.chunk.css.map": "/portfolio-es/static/css/main.e7ac5f65.chunk.css.map",
   "index.html": "/portfolio-es/index.html",
-  "precache-manifest.e9e75e5c12c982c6e5dfb81d3cc322b2.js": "/portfolio-es/precache-manifest.e9e75e5c12c982c6e5dfb81d3cc322b2.js",
+  "precache-manifest.a1bf47c054674c1a616307689d6d3cca.js": "/portfolio-es/precache-manifest.a1bf47c054674c1a616307689d6d3cca.js",
   "service-worker.js": "/portfolio-es/service-worker.js"
 }

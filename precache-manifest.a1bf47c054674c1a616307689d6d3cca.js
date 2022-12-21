@@ -1,19 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "f56f055bc17567b78db9",
-    "url": "/portfolio-es/static/css/main.482987e9.chunk.css"
+    "revision": "addc5d7a1abbdba936b0",
+    "url": "/portfolio-es/static/css/main.e7ac5f65.chunk.css"
   },
   {
-    "revision": "f56f055bc17567b78db9",
-    "url": "/portfolio-es/static/js/main.f56f055b.chunk.js"
+    "revision": "addc5d7a1abbdba936b0",
+    "url": "/portfolio-es/static/js/main.addc5d7a.chunk.js"
   },
   {
-    "revision": "1f1506e14cefc9930e2f",
-    "url": "/portfolio-es/static/js/1.1f1506e1.chunk.js"
+    "revision": "0918c5a34a14ea6e4ea7",
+    "url": "/portfolio-es/static/js/1.0918c5a3.chunk.js"
   },
   {
     "revision": "c44b222507f100ce4a9b",
     "url": "/portfolio-es/static/js/runtime~main.c44b2225.js"
+  },
+  {
+    "revision": "27e326beb63f8a5dffc7f18553517515",
+    "url": "/portfolio-es/static/media/jarvises.27e326be.pdf"
   },
   {
     "revision": "97b4b32cb297659809b8da37c31e74f9",
@@ -52,7 +56,7 @@ self.__precacheManifest = [
     "url": "/portfolio-es/static/media/ebaaba-vendor-dashboard.12f284f6.png"
   },
   {
-    "revision": "5ad4559d2e77d65d43be2a70c30bffa6",
+    "revision": "6348eda8fd284db1e972944e77cba3b1",
     "url": "/portfolio-es/index.html"
   }
 ];
