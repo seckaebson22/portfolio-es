@@ -1,23 +1,23 @@
 {
-  "main.css": "/portfolio-es/static/css/main.e7ac5f65.chunk.css",
-  "main.js": "/portfolio-es/static/js/main.addc5d7a.chunk.js",
-  "main.js.map": "/portfolio-es/static/js/main.addc5d7a.chunk.js.map",
-  "static/js/1.0918c5a3.chunk.js": "/portfolio-es/static/js/1.0918c5a3.chunk.js",
-  "static/js/1.0918c5a3.chunk.js.map": "/portfolio-es/static/js/1.0918c5a3.chunk.js.map",
-  "runtime~main.js": "/portfolio-es/static/js/runtime~main.c44b2225.js",
-  "runtime~main.js.map": "/portfolio-es/static/js/runtime~main.c44b2225.js.map",
-  "static/media/jarvises.pdf": "/portfolio-es/static/media/jarvises.27e326be.pdf",
-  "static/media/logo.jpg": "/portfolio-es/static/media/logo.97b4b32c.jpg",
-  "static/media/Resume.pdf": "/portfolio-es/static/media/Resume.809a8867.pdf",
-  "static/media/seckaby.jpeg": "/portfolio-es/static/media/seckaby.c086e8a9.jpeg",
-  "static/media/cv-uk.png": "/portfolio-es/static/media/cv-uk.db77e997.png",
-  "static/media/link-britannia.png": "/portfolio-es/static/media/link-britannia.56b8576f.png",
-  "static/media/fresh-and-funky.jpg": "/portfolio-es/static/media/fresh-and-funky.9cf9b429.jpg",
-  "static/media/shady-tints.png": "/portfolio-es/static/media/shady-tints.63ae15cd.png",
-  "static/media/the-baae-company.png": "/portfolio-es/static/media/the-baae-company.b0f0805d.png",
-  "static/media/ebaaba-vendor-dashboard.png": "/portfolio-es/static/media/ebaaba-vendor-dashboard.12f284f6.png",
-  "static/css/main.e7ac5f65.chunk.css.map": "/portfolio-es/static/css/main.e7ac5f65.chunk.css.map",
-  "index.html": "/portfolio-es/index.html",
-  "precache-manifest.a1bf47c054674c1a616307689d6d3cca.js": "/portfolio-es/precache-manifest.a1bf47c054674c1a616307689d6d3cca.js",
-  "service-worker.js": "/portfolio-es/service-worker.js"
+  "files": {
+    "main.css": "/portfolio-es/static/css/main.2a57fd3a.css",
+    "main.js": "/portfolio-es/static/js/main.7cadb311.js",
+    "static/media/link-britannia.png": "/portfolio-es/static/media/link-britannia.5aa4725a9337b2b5b659.png",
+    "static/media/jarvises.pdf": "/portfolio-es/static/media/jarvises.8f86618c5a4c92273e3c.pdf",
+    "static/media/cv-uk.png": "/portfolio-es/static/media/cv-uk.86e8f845a8adda8c0ddd.png",
+    "static/media/fresh-and-funky.jpg": "/portfolio-es/static/media/fresh-and-funky.54b8c0dfdb7088d4f6d7.jpg",
+    "static/media/shady-tints.png": "/portfolio-es/static/media/shady-tints.563b947d3e935e1647a8.png",
+    "static/media/the-baae-company.png": "/portfolio-es/static/media/the-baae-company.fa1ce675f7cb05aad304.png",
+    "static/media/Resume.pdf": "/portfolio-es/static/media/Resume.d36a264c496fe669a01f.pdf",
+    "static/media/ebaaba-vendor-dashboard.png": "/portfolio-es/static/media/ebaaba-vendor-dashboard.334f7360211bcdb67ab0.png",
+    "static/media/logo.jpg": "/portfolio-es/static/media/logo.ea992178b79470868f9e.jpg",
+    "static/media/seckaby.jpeg": "/portfolio-es/static/media/seckaby.c7c82a8ba34e84dc81fe.jpeg",
+    "index.html": "/portfolio-es/index.html",
+    "main.2a57fd3a.css.map": "/portfolio-es/static/css/main.2a57fd3a.css.map",
+    "main.7cadb311.js.map": "/portfolio-es/static/js/main.7cadb311.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a57fd3a.css",
+    "static/js/main.7cadb311.js"
+  ]
 }
