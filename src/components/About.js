@@ -39,19 +39,24 @@ const tabItems = [
       </svg>,
         content: [
             {
-                title: "The Web Way (thewebway.info) 08/2022 - 10/2022",
+                title: "PURA LTD (pura.gm), May 2023 – Date : Full Time",
                 excerpt:
-                    "I worked as a software developer on contract, I implemented website updates for there clients. I also contributed in the development of web applications for there clients",
+                    "Conduct analysis of intruder activity trends, formulate preventive strategies for the entire constituency, and provide incident reports with recovery recommendations to mitigate damage. Collaborate with system administrators on preventive measures to address potential recurrence.",
             },
             {
-                title: "Xanda LTD (xanda.net) 09/2020 - 04/2022",
+                title: "EBAABA ENTERPISE LTD(ebaaba.com), May 2023 – Date : Part Time",
                 excerpt:
-                    "I worked as a full stack developer. My responsibilities where primarily focused on building custom WordPress themes. The programming tools I use there includes but are not limited  to HTML, CSS, JavaScript(Jquery) and Other JavaScript libraries",
+                    "Led development operations, collaborating with teams and product managers for customized software solutions and managing websites, including e-commerce. Addressed bugs, handled server setup, and contributed to pre-sales efforts for new applications by analyzing features and translating requirements into application features.",
             },
             {
-                title: "Ebaaba LTD (ebaaba.com) 02/2020 - 08/2020",
+                title: "EBAABA ENTERPISE LTD(ebaaba.com), June 2022 – April 2023 : Full Time",
                 excerpt:
-                    "I did an intern at Ebaaba company ltd, working on their website ebaaba.com fixing buys and adding new features on their website",
+                    "Led development operations, collaborating with teams and product managers for customized software solutions and managing websites, including e-commerce. Addressed bugs, handled server setup, and contributed to pre-sales efforts for new applications by analyzing features and translating requirements into application features.",
+            },
+            {
+                title: "XANDA LTD(xanda.net) August 2020 – May 2022",
+                excerpt:
+                    "Developed WordPress websites, offering technical support, coding in HTML, CSS, and JavaScript. Customized themes, managed user guides, and conducted responsive testing for enhanced visitor satisfaction.",
             },
         ],
     },
