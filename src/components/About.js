@@ -153,7 +153,7 @@ const About = () => {
                                                             <h4 className="tab-title">{title}</h4>
                                                             <div className="tab-excerpt">
                                                                 <p>{excerpt} {title === 'Certificate on Organisational Behaviour' && (
-                                                                    <a class="button-view" href={link} target="_blank">. Click to View Certificate</a>
+                                                                    <a class="button-view" href={link} target="_blank" rel='noreferrer'>. Click to View Certificate</a>
                                                                 )}</p>
 
                                                             </div>

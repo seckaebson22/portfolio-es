@@ -83,7 +83,7 @@ const Header = () => {
                                 })
                             }
                             <li className="menu-item">
-                                <a href={resume} className="button" target='_blanck'>my resume</a>
+                                <a href={resume} className="button" target='_blanck' rel='noreferrer'>my resume</a>
                             </li>
                         </ul>
                     </nav>
