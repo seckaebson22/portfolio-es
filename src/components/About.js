@@ -6,6 +6,8 @@ import React, { useState, useEffect } from "react";
 // import Education from "./../images/Education.jpg";
 // import Education from "./../images/icons/cap-graduation-hat-svgrepo-com.svg";
 import JarvisesCertificate from './../images/jarvises.pdf';
+import GoogleCareerCertificate from './../images/GoogleCareerCertificate.pdf';
+
 // import classNames from 'classnames';
 
 const tabItems = [
@@ -68,13 +70,21 @@ const tabItems = [
       </svg>,
         content: [
             {
+                id: 1,
                 title: "Bsc. Computer Science (Cum Laude)",
                 excerpt: "I completed a undergraduate degree in Computer Science at the University of the Gambia between January 2016 to December 2019",
             },
             {
+                id: 2,
                 title: "Certificate on Organisational Behaviour",
                 excerpt: "Completed a summer course on Organisational Behaviour at Jarvis Christian University",
                 link: JarvisesCertificate,
+            },
+            {
+                id: 3,
+                title: "Google Career Certificate",
+                excerpt: "Completed a online course in Cybersecurity offered by google",
+                link: GoogleCareerCertificate,
             },
         ],
     },
@@ -147,14 +157,14 @@ const About = () => {
                                     return (
                                         <div className={!(active === id) ? 'tab-content' : 'tab-content is-active'} id={id} active={active === id}>
                                             {
-                                                content.map(({ title, excerpt, link }) => {
+                                                content.map(({ id, title, excerpt, link }) => {
                                                     return (
                                                         <div className="tab-container">
                                                             <h4 className="tab-title">{title}</h4>
                                                             <div className="tab-excerpt">
-                                                                <p>{excerpt} {title === 'Certificate on Organisational Behaviour' && (
+                                                                <p>{excerpt} {title === 'Certificate on Organisational Behaviour' || title === 'Google Career Certificate'  ? (
                                                                     <a class="button-view" href={link} target="_blank" rel='noreferrer'>. Click to View Certificate</a>
-                                                                )}</p>
+                                                                ) : null}</p>
 
                                                             </div>
                                                         </div>
